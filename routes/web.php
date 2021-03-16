@@ -31,16 +31,3 @@ Route::get('/home', function () {
 Route::get('/project', function () {
     return view('project');
 });
-
-Route::get('post/add', function () {
-    DB::table('post')->insert([
-        'ID' => 190103082,
-        'title' => 'SDU',
-        'body' => 'Kaskelen',
-    ]);
-});
-
-Route::get('post', function () {
-    $post = Post::find(1);
-    return $post;
-});
