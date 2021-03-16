@@ -18,8 +18,7 @@
   --header-height: 3rem;
   --font-semi: 600;
 }
-
-/*===== Colores =====*/
+/*==colors==*/
 :root{
   --first-color: #4070F4;
   --second-color: #0E2431;
