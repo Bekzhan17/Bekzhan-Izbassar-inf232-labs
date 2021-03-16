@@ -31,3 +31,17 @@ Route::get('/home', function () {
 Route::get('/project', function () {
     return view('project');
 });
+
+Route::get('post/add', function() {
+    DB::table('posts')->insert([
+        'id' => 190103082,
+        'title' => 'SDU',
+        'body' => 'Kaskelen',
+        'timestamps' => 17
+    ]);
+});
+
+Route::get('post', function() {
+    $posts = Post::find(190103082);
+    return $posts->timestamps;
+});
