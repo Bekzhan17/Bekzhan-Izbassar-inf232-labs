@@ -5,6 +5,8 @@ use Illuminate\Support\Facades\DB;
 
 use App\Models\Post;
 
+use App\Http\Controllers\BlogController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -41,7 +43,4 @@ Route::get('post/add', function() {
     ]);
 });
 
-Route::get('post', function() {
-    $posts = Post::find(190103082);
-    return $posts->timestamps;
-});
+Route::get('post', [BlogController::class, 'index']);
