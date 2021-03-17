@@ -13,3 +13,7 @@
 
 ![2](https://user-images.githubusercontent.com/78722836/111356175-4d0e1000-86b2-11eb-8f89-a1bc249c5994.png)
 ![3](https://user-images.githubusercontent.com/78722836/111356181-4f706a00-86b2-11eb-867a-6f66cbff672d.png)
+
+#lab6.Laravel. Test
+
+![1](https://user-images.githubusercontent.com/78722836/111447082-483f6f80-8737-11eb-9def-c3f66a67b76d.png)
