@@ -37,14 +37,13 @@ Route::get('/project', function () {
 Route::get('post/add', function() {
     DB::table('posts')->insert([
         'title' => 'SDU',
-        'body' => 'Kaskelen',
-        'timestamps' => 17
+        'body' => 'Kaskelen'
     ]);
 });
 
 Route::get('post', [BlogController::class, 'index']);
 Route::get('blog/create', function() {
-    return view('blog.create');
+   return view('blog.create');
 });
 
 Route::post('blog/create', [BlogController::class, 'store'])->name('add-blog');
