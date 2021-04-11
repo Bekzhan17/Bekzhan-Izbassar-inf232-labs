@@ -21,3 +21,9 @@
 #lab7.API
 
 ![photo5373004096342175651](https://user-images.githubusercontent.com/78722836/111475438-45ed0d80-8757-11eb-8453-1c71bd9569df.jpg)
+
+#lab9.Add Kazakh, Russian and English languages
+
+![1](https://user-images.githubusercontent.com/78722836/114298921-7f0c6980-9ada-11eb-9865-7ccf542136d2.png)
+![2](https://user-images.githubusercontent.com/78722836/114298923-803d9680-9ada-11eb-9d4b-3c8b0ed56fb6.png)
+![3](https://user-images.githubusercontent.com/78722836/114298926-82075a00-9ada-11eb-9683-be91b2caa883.png)
