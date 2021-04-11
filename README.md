@@ -17,3 +17,7 @@
 #lab6.Laravel. Test
 
 ![1](https://user-images.githubusercontent.com/78722836/111447082-483f6f80-8737-11eb-9def-c3f66a67b76d.png)
+
+#lab7.API
+
+![photo5373004096342175651](https://user-images.githubusercontent.com/78722836/111475438-45ed0d80-8757-11eb-8453-1c71bd9569df.jpg)
