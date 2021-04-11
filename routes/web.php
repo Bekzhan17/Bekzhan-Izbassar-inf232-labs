@@ -26,10 +26,6 @@ Route::get('/user', function () {
     return view('user');
 });
 
-Route::get('/home', function () {
-    return "home";
-});
-
 Route::get('/project', function () {
     return view('project');
 });
@@ -49,3 +45,8 @@ Route::get('blog/create', function() {
 Route::post('blog/create', [BlogController::class, 'store'])->name('add-blog');
 
 Route::get('post/{id}', [BlogController::class, 'get_post']);
+
+Route::get('/{lang}', function ($lang){
+    App::setlocale($lang);
+    return view('home');
+});
